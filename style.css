@@ -1,0 +1,45 @@
+body{
+    font-size: 0.7rem;
+}
+
+#insert-area{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#insert-area input{
+    width: 100%;
+    margin: 3px 0;
+}
+
+.card{
+    height: 400px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    object-fit: cover;
+    height: 50%;
+}
+
+button.btn-success{
+    margin-top: 10px;
+}
+
+.btn-danger,.btn-primary{
+    font-size: 0.7rem;
+    margin: 5px 0;
+}
+
+.card-img-top{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
